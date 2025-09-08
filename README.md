@@ -45,6 +45,7 @@ PY Accidents = CALCULATE([CY Accidents], SAMEPERIODLASTYEAR('Calendar'[Date]))
 
 -- Year-over-Year Casualties %
 YoY Casualties = ([CY Casualties] - [PY Casualties]) / [PY Casualties]
+```
 
 ## 📊 Dashboard Visuals
 
